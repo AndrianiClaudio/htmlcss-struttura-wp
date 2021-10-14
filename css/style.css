@@ -5,10 +5,20 @@
 }
 
 .container{
-
+    margin-top: 10px;
+    width: 80%;
 }
 
-.header-pink{
+/* header */
+.header > div{
+    margin-bottom: 10px;
+}
+.header-bar{
     background-color: #e579e6;
-
+    height: 55px;
 }
+.header-jumbotron{
+    background-color: #e1d67a;
+    height: 275px;
+}
+/* /header */
