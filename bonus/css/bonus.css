@@ -1,0 +1,27 @@
+.header-jumbotron:hover{
+    background-color: red;;
+}
+
+a:focus{
+    font-size: 3em;
+    color: blueviolet;
+    font-style: oblique;
+}
+
+.container-block:first-child{
+    width: 10%;
+}
+.container-block:nth-of-type(2){
+    width: 15%;
+}
+.container-block:nth-last-of-type(2){
+    width: 25%;
+}
+.container-block:last-child{
+    width: 40%;
+}
+
+.margin-lr{
+    margin-left:2.5%;
+    margin-right: 0;
+}
