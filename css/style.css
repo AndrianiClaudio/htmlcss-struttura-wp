@@ -13,30 +13,38 @@ main{
 }
 
 /* dimensioni */
-.width-15{
-    width:15%;
-}
-.width-70{
-    width:calc(70% - 20px);
-}
-.width-80{
-    width: 80%;
+body.width{
+    width:80%;
 }
 
-.margin-lr-10{
+header > .margin-btm,
+main > .margin-btm{
+    margin-bottom: 15px;
+}
+
+main.margin-btm{
+    margin-bottom: 5px;
+}
+
+.main-container{
+    padding-bottom: 15px;
+}
+
+.main-container > div:first-child,
+.main-container > div:last-child{
+    width:15%;
+}
+
+.width-calc{
+    width:calc(70% - 20px);
+}
+
+.margin-lr{
     margin-left: 10px;
     margin-right: 10px;   
 }
-.margin-btm-5{
-    margin-bottom: 5px;
-}
-.margin-btm-10{
-    margin-bottom: 10px;
-}
-.margin-btm-15{
-    margin-bottom: 15px;
-}
-.padding-btm-10{
+
+main > .main-container > .padding-btm{
     padding-bottom: 13px;
 }
 /* /dimensioni colonna */
@@ -79,13 +87,16 @@ main{
     /*  */
     float: left;
 }
+.container-block:last-child{
+    float:right;
+}
 /* /main */
 
 /* footer */
 .footer-bar{
     background-color: #8801fe;
     /*  */
-    height:20px;
+    height:40px;
     /*  */
 }
 /* /footer */
