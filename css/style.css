@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 
-.container{
-    margin-top: 10px;
+body{
+    margin-top: 12px;
     width: 80%;
 }
 
 /* header */
 .header > div{
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 .header-bar{
     background-color: #e579e6;
@@ -22,3 +22,31 @@
     height: 275px;
 }
 /* /header */
+
+/* main */
+main div{
+    background-color: #abcfe7;
+}
+
+.main-header{
+    height: 40px;
+}
+
+.container{
+    background-color: #0086ff;
+}
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container-block{
+    height: 220px;
+    float: left;
+}
+
+.container-block{
+    
+}
+/* /main */
