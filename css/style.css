@@ -6,34 +6,46 @@
 
 body{
     margin-top: 12px;
-    width: 80%;
 }
 
+main{
+    background-color: #0086ff;
+}
+/* 
+.container > div{
+    border: 1px solid black;
+} */
+
+
+/* dimensioni colonna */
+.width-20{
+    width:20%;
+}
+.width-60{
+    width:60%;
+}
+.width-80{
+    width: 80%;
+}
+/* /dimensioni colonna */
+
 /* header */
-.header > div{
+.header > div[class^="header-"]{
     margin-bottom: 15px;
 }
 .header-bar{
     background-color: #e579e6;
-    height: 55px;
+    /* height: 55px; */
 }
 .header-jumbotron{
     background-color: #e1d67a;
-    height: 275px;
+    /* height: 275px; */
 }
 /* /header */
 
 /* main */
-main div{
-    background-color: #abcfe7;
-}
-
-.main-header{
-    height: 40px;
-}
-
-.container{
-    background-color: #0086ff;
+main{
+    overflow: hidden;
 }
 .clearfix::after{
     content: '';
@@ -41,12 +53,16 @@ main div{
     clear: both;
 }
 
-.container-block{
-    height: 220px;
-    float: left;
+.main-header,.container-block{
+    background-color: #abcfe7;
+}
+
+.main-header{
+    /* height: 40px; */
 }
 
 .container-block{
-    
+    /* heißght: 220px; */
+    float: left;
 }
 /* /main */
