@@ -8,20 +8,29 @@ a:focus{
     font-style: oblique;
 }
 
+.container-block{
+    height: 120px;
+    margin:0 auto;
+    border:1px #005effd5 solid ;
+}
+
+.container-block:not(:last-child){
+    margin-right: calc(10% / 3.5);
+}
+
+.container-block:last-child{
+    float:right;
+}
+
 .container-block:first-child{
     width: 10%;
 }
-.container-block:nth-of-type(2){
+.container-block:nth-child(2){
     width: 15%;
 }
-.container-block:nth-last-of-type(2){
+.container-block:nth-last-child(2){
     width: 25%;
 }
 .container-block:last-child{
     width: 40%;
-}
-
-.margin-lr{
-    margin-left:2.5%;
-    margin-right: 0;
 }

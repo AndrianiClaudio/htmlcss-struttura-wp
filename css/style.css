@@ -52,11 +52,6 @@ main.margin-btm{
     width:calc(70% - 20px);
 }
 
-.margin-lr{
-    margin-left: 10px;
-    margin-right: 10px;   
-}
-
 .main-container > .padding-btm{
     padding-bottom: 13px;
 }
